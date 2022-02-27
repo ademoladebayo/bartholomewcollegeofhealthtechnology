@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Sign Up Form by Colorlib</title>
+
+<link rel="stylesheet" href="css/css-material-design-iconic-font.min.css">
+<link rel="stylesheet" href="css/jquery-ui-jquery-ui.min.css">
+
+<link rel="stylesheet" href="css/css-style.css">
+<meta name="robots" content="noindex, follow">
+</head>
+<body>
+<div class="main">
+<section class="signup">
+
+<div class="container">
+<div class="signup-content">
+<form method="POST" id="signup-form" class="signup-form">
+<div class="form-row">
+<div class="form-group">
+<label for="first_name">First name</label>
+<input type="text" class="form-input" name="first_name" id="first_name">
+</div>
+<div class="form-group">
+<label for="last_name">Last name</label>
+<input type="text" class="form-input" name="last_name" id="last_name">
+</div>
+</div>
+<div class="form-row">
+<div class="form-group form-icon">
+<label for="birth_date">Birth date</label>
+<input type="text" class="form-input" name="birth_date" id="birth_date" placeholder="MM-DD-YYYY">
+</div>
+<div class="form-radio">
+<label for="gender">Gender</label>
+<div class="form-flex">
+<input type="radio" name="gender" value="male" id="male" checked>
+<label for="male">Male</label>
+<input type="radio" name="gender" value="female" id="female">
+<label for="female">Female</label>
+</div>
+</div>
+</div>
+<div class="form-group">
+<label for="phone_number">Phone number</label>
+<input type="number" class="form-input" name="phone_number" id="phone_number">
+</div>
+<div class="form-row">
+<div class="form-group">
+<label for="password">Password</label>
+<input type="password" class="form-input" name="password" id="password">
+</div>
+<div class="form-group">
+<label for="re_password">Repeat your password</label>
+<input type="password" class="form-input" name="re_password" id="re_password">
+</div>
+</div>
+<div class="form-text">
+<a href="#" class="add-info-link"><i class="zmdi zmdi-chevron-right"></i>Additional info</a>
+<div class="add_info">
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" class="form-input" name="email" id="email">
+</div>
+<div class="form-group">
+<label for="country">Country</label>
+<div class="select-list">
+ <select name="country" id="country" required>
+<option value="US">United State</option>
+<option value="UK">English</option>
+<option value="VN">Viet Nam</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<label for="city">City</label>
+<div class="select-list">
+<select name="city" id="city" required>
+<option value="NY">NewYork</option>
+<option value="IC">IceLand</option>
+<option value="canada">Canada</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="form-group">
+<input type="submit" name="submit" id="submit" class="form-submit" value="Submit">
+</div>
+</form>
+</div>
+</div>
+</section>
+</div>
+
+<script src="js/jquery-jquery.min.js"></script>
+<script src="js/jquery-ui-jquery-ui.min.js"></script>
+<script src="js/dist-jquery.validate.min.js"></script>
+<script src="js/dist-additional-methods.min.js"></script>
+<script src="js/1172-js-main.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6ddf61eb195fe141","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
